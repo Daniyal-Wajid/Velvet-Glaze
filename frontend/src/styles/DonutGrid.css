@@ -1,0 +1,81 @@
+.donutGrid {
+  background: #fff;
+  padding: 2rem 0;
+}
+
+.donutGrid-searchBar {
+  max-width: 400px;
+  margin: 0 auto 2rem auto;
+  text-align: center;
+}
+
+.donutGrid-searchBar input {
+  width: 100%;
+  padding: 0.7rem 1rem;
+  border-radius: 30px;
+  border: 1px solid #c2491420;
+  font-size: 1.1rem;
+  background: #f9e0ae;
+  outline: none;
+}
+
+.donutGrid-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.donutGrid-card {
+  background: #fff9ae;
+  border-radius: 20px;
+  box-shadow: 0 2px 12px #c2491420;
+  overflow: hidden;
+  text-decoration: none;
+  color: #3e2723;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.1s, box-shadow 0.1s;
+}
+
+.donutGrid-card:hover {
+  transform: translateY(-4px) scale(1.04);
+  box-shadow: 0 8px 24px #c2491420;
+}
+
+.donutGrid-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.donutGrid-info {
+  padding: 1rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.donutGrid-price {
+  color: #c24914;
+  font-weight: bold;
+}
+
+.donutGrid-addBtn {
+  background: #c24914;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  margin-top: auto;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.donutGrid-addBtn:hover {
+  background: #6f4e37;
+}

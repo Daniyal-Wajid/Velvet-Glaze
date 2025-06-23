@@ -1,0 +1,6 @@
+/* Example: Import Google Fonts or define custom fonts here */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700,400|Open+Sans:400,700&display=swap');
+
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+}

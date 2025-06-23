@@ -1,0 +1,55 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.8rem 2rem;
+  background: #f9e0ae;
+  box-shadow: 0 2px 8px #c2491420;
+  position: relative;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-logo .brand {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #c24914;
+  letter-spacing: 2px;
+  font-family: 'Fredoka One', cursive;
+  text-decoration: none;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  font-size: 1.1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-menu li a {
+  text-decoration: none;
+  color: #3e2723;
+  transition: color 0.2s;
+}
+
+.navbar-menu li a:hover {
+  color: #c24914;
+}
+
+.navbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  font-size: 1.3rem;
+}
+
+.navbar-actions a {
+  color: #6f4e37;
+  transition: color 0.2s;
+}
+
+.navbar-actions a:hover {
+  color: #c24914;
+}

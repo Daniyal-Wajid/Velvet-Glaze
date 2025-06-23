@@ -1,0 +1,63 @@
+.footer {
+  background: #c24914;
+  color: #fff;
+  padding: 2rem 0 1rem 0;
+  font-size: 1rem;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  max-width: 1200px;
+  margin: 0 auto 1rem auto;
+}
+
+.footer-top > div {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-social {
+  display: flex;
+  gap: 1.2rem;
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.footer-searchBar {
+  display: flex;
+  margin-top: 0.5rem;
+}
+
+.footer-searchBar input {
+  background: #fff9ae;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 20px 0 0 20px;
+  outline: none;
+  font-size: 1rem;
+}
+
+.footer-searchBar button {
+  background: #fff9ae;
+  border: none;
+  border-radius: 0 20px 20px 0;
+  padding: 0.5rem 1rem;
+  color: #c24914;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-size: 0.95rem;
+  border-top: 1px solid #fff9ae80;
+  padding-top: 1rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
