@@ -17,6 +17,7 @@ import OffersPage from "./pages/OffersPage";
 import NotFoundPage from "./pages/NotFoundPage";
 import StoreLocatorPage from "./pages/StoreLocatorPage";
 import OrderHistoryPage from "./pages/OrderHistoryPage";
+import SearchPage from "./pages/SearchPage";
 
 function App() {
   return (
@@ -35,8 +36,10 @@ function App() {
         <Route path="/signup" element={<SignupPage />} />
         <Route path="/profile" element={<ProfilePage />} />
         <Route path="/admin/*" element={<AdminPage />} />
+        <Route path="/search" element={<SearchPage />} />
         <Route path="/store-locator" element={<StoreLocatorPage />} />
         <Route path="/orders" element={<OrderHistoryPage />} />
+        <Route path="/product/:id" element={<ProductDetailsPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
       <Footer />

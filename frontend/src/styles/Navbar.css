@@ -10,6 +10,16 @@
   z-index: 100;
 }
 
+.logout-btn {
+  background: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  padding: 0;
+}
+
+
 .navbar-logo .brand {
   font-size: 2rem;
   font-weight: bold;

@@ -32,6 +32,7 @@ function Footer() {
       </div>
       <div className="footer-bottom">
         <span>© {new Date().getFullYear()} Velvet Glaze. All rights reserved.</span>
+        <span>Developed by amirmughal44</span>
       </div>
     </footer>
   );
